@@ -1,0 +1,16 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="iT1+#!/i(Nm(!LZ?P7C{">mySprite</variable><variable type="KIND_SpriteKind" id="Gj18%RR#]yPXCuh7,loV">Player</variable><variable type="KIND_SpriteKind" id="nAq,56P.LAI-U4aJCFr(">Projectile</variable><variable type="KIND_SpriteKind" id="F;r9f.rlgYwV_AU(~c=g">Food</variable><variable type="KIND_SpriteKind" id="]N5PrK0!5A9vRP8~[0%!">Enemy</variable></variables><block type="pxt-on-start" id="F7[$fx+j^/VfsA[^k1Ya" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="JFDO|ZEW-I[N$_Rn,1qe"><field name="VAR" id="iT1+#!/i(Nm(!LZ?P7C{">mySprite</field><value name="VALUE"><shadow type="math_number" id="|?8-GjxWPMcq|a1$lagl"><field name="NUM">0</field></shadow><block type="spritescreate" id="YHx^U+JB6P6mpj8Ug(D,"><value name="img"><shadow type="screen_image_picker" id="6A]VK|D$,PQ8)HibYwdk"><field name="img">img`
+. . . . . . . . . . . . . . 
+e e e . . . . e e e . . . . 
+c d d c . . c d d c . . . . 
+c b d d f f d d b c . . . . 
+c 3 b d d b d b 3 c . . . . 
+f b 3 d d d d 3 b f . . . . 
+e d d d d d d d d e . . . . 
+e d f d d d d f d e b f b . 
+f d d f d d f d d f f d f . 
+f b d d b b d d 2 b f d f . 
+. f 2 2 2 2 2 2 d b d b f . 
+. f d d d d d d d f f f . . 
+. f d b d f f f d f . . . . 
+. . f f f f . . f f . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id=";sUow5/R!$`o..pg:BRW"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="keyonevent" id="+U-Qmyt!~m?nJ{Oa?pw8" x="147" y="327"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="game_setgameovermessage" id="?.jiS/5o}|[*ot$ESf0V"><value name="message"><shadow type="text" id="(8jmq@vZnEeYp)I8)TKl"><field name="TEXT">YAYA</field></shadow></value><value name="win"><shadow type="toggleWinLose" id="qNEeYk%g3tkdhSma(|{`"><field name="win">true</field></shadow></value><next><block type="gameOver2" id="i?$EE%]VzH}G]E]KZs%Y"><value name="win"><shadow type="toggleWinLose" id="O==nNCvbOXVw70x$*$iS"><field name="win">true</field></shadow></value></block></next></block></statement></block><block type="keyonevent" id="f~T,1J]s5z(hVOdw-}[b" x="477" y="430"><field name="button">controller.B</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="gameOver2" id="@,MRi4R{I{qpo1pC`6sv"><value name="win"><shadow type="toggleWinLose" id="lKyMmctG%qY6$CEY!=he"><field name="win">false</field></shadow></value></block></statement></block></xml>
